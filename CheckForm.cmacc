@@ -1,18 +1,18 @@
-$ bank1 = [../FR/_entity.cmacc];
+$ bank1 = [yarn://cmacc-lib-fr/_entity.cmacc];
 
-$ bank1_Adr12 = [../Geo/FR/_adr_12.cmacc] => {
+$ bank1_Adr12 = [yarn://cmacc-example-geo/FR/_adr_12.cmacc] => {
 	"adr" : bank1.adr
 };
 
-$ party1 = [../FR/_entity.cmacc];
+$ party1 = [yarn://cmacc-lib-fr/_entity.cmacc];
 
-$ party1_Adr12 = [../Geo/FR/_adr_12.cmacc] => {
+$ party1_Adr12 = [yarn://cmacc-lib-fr/_adr_12.cmacc] => {
 	"entity" : party1.adr
 };
 
-$ party1_Acct_ID_Num = [../Acct/bank/acctID/acctnum/_acct.cmacc];
+$ party1_Acct_ID_Num = [yarn://cmacc-lib-acct/bank/acctID/acctnum/_acct.cmacc];
 
-$ party2 = [../FR/_entity.cmacc];
+$ party2 = [yarn://cmacc-lib-fr/_entity.cmacc];
 
 $ check_ID_Num = "Check_ID_Number";
 
@@ -26,16 +26,16 @@ $ sign_Date_YMD = "Date_YMD";
 
 
 <table>
-<tr><td><h1>{{bank1.name_Full}}</h1><br>{{bank1_Adr12}}<br></td>
+<tr><td><h1>{{bank1.full_Name}}</h1><br>{{bank1_Adr12}}<br></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td valign="top">{{party1.name_Full}} <br>{{party1_Adr12}}</td>
+<td valign="top">{{party1.full_Name}} <br>{{party1_Adr12}}</td>
 <td valign="top">Compte <br>{{party1_Acct_ID_Num.acctnum}}</td>
 </tr>
 <tr>
-<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{party2.name_Full}}<br>
+<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{party2.full_Name}}<br>
 <table>
 <tr>
 <td valign="top">Payable en France</td>
@@ -47,7 +47,7 @@ $ sign_Date_YMD = "Date_YMD";
 </tr>
 <tr>
 <td></td>
-<td valign="top">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{party1.sign_Rep.name_Formal}}</td>
+<td valign="top">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{party1.sign_Rep.formal_Name}}</td>
 </tr>
 <tr>
 <td>{{check_ID_Num}} | {{party1_Acct_ID_Num.acctnum}} | {{bank1.gov_ID_Num}}</td>

@@ -1,10 +1,10 @@
 $ time_Present_YMDH = "2016-09-22 15:58";
 
-$ check_Deposited = [./step4_deposit.cmacc];
+$ check_Deposited = [./Step4_Deposit.cmacc];
 
-$ action_Present = [./present_Yes.cmacc];
+$ action_Present = [./Present_Yes.cmacc];
 
 
 {{check_Deposited}}
 ---
-Presented by {{check_Deposited.bank2.name_Full}} to {{check_Deposited.check_Endorsed.check_Signed.check_Sign.bank1.name_Full}} at {{time_Present_YMDH}}
+Presented by {{check_Deposited.bank2.full_Name}} to {{check_Deposited.check_Endorsed.check_Signed.check_Sign.bank1.full_Name}} at {{time_Present_YMDH}}

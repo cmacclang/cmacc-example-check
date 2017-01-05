@@ -1,9 +1,9 @@
-$ check_Signed = [./step2_sign.cmacc];
+$ check_Signed = [./Step2_Sign.cmacc];
 
-$ action_Endorse = [./endorse_Yes.cmacc];
+$ action_Endorse = [./Endorse_Yes.cmacc];
 
 
 {{check_Signed}}
 ---
 Endorsed by: 
-{{check_Signed.check_Sign.payto.name_Full}}
+{{check_Signed.check_Sign.payto.full_Name}}

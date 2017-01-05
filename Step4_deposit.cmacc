@@ -1,4 +1,4 @@
-$ bank2 = [yarn://cmacc-example-id/Orange_bank.cmacc];
+$ bank2 = [yarn://cmacc-example-id/OrangeBank.cmacc];
 
 $ time_Endorse_YMDH = "2016-09-22 15:55";
 
@@ -9,4 +9,4 @@ $ action_Deposit = [./Deposit_Yes.cmacc];
 
 {{check_Endorsed}}
 ---
-Deposited to {{bank2.name_Full}} at {{time_Endorse_YMDH}}
+Deposited to {{bank2.full_Name}} at {{time_Endorse_YMDH}}

@@ -8,5 +8,3 @@ $ action_Accept = [./Accept_Yes.cmacc];
 {{check_Presented}}
 ---
 Accepted by {{check_Presented.check_Deposited.check_Endorsed.check_Signed.check_Sign.bank1.full_Name}} at {{time_Accept_YMDH}}
-
-

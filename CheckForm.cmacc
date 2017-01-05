@@ -1,6 +1,6 @@
 $ bank1 = [yarn://cmacc-lib-fr/_entity.cmacc];
 
-$ bank1_Adr12 = [yarn://cmacc-example-geo/FR/_adr_12.cmacc] => {
+$ bank1_Adr12 = [yarn://cmacc-lib-fr/_adr_12.cmacc] => {
 	"adr" : bank1.adr
 };
 

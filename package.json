@@ -1,6 +1,6 @@
 {
   "name": "cmacc-example-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Example of the flow for a check - includes reference to SCDL",
   "main": "index.js",
   "repository": "https://github.com/cmacclang/cmacc-example-check.git",
@@ -8,10 +8,11 @@
   "license": "MIT",
   "flat": true,
   "dependencies": {
-    "cmacc-example-acct": "cmacclang/cmacc-lib-acct",
+    "cmacc-example-acct": "cmacclang/cmacc-example-acct",
     "cmacc-example-geo": "cmacclang/cmacc-example-geo",
     "cmacc-example-id": "cmacclang/cmacc-example-id",
     "cmacc-lib-acct": "cmacclang/cmacc-lib-acct",
+    "cmacc-lib-id": "cmacclang/cmacc-lib-id",
     "cmacc-lib-fr": "cmacclang/cmacc-lib-fr"
   }
 }

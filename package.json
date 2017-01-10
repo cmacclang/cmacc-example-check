@@ -1,6 +1,6 @@
 {
   "name": "cmacc-example-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Example of the flow for a check - includes reference to SCDL",
   "main": "index.js",
   "repository": "https://github.com/cmacclang/cmacc-example-check.git",
